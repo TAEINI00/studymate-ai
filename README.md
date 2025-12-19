@@ -1,73 +1,22 @@
-# Welcome to your Lovable project
+# 📚 학생 과제 관리 시스템
 
-## Project info
+## 프로젝트 소개
+고등학생들의 과제 마감일을 효율적으로 관리하고, 마감이 임박한 과제를 한눈에 확인할 수 있도록 도와주는 웹 애플리케이션입니다.  
+과제 등록부터 D-day 계산, 완료 여부 관리까지 간단하고 직관적으로 사용할 수 있도록 설계되었습니다.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 개발 기간
+2025.12.19
 
-## How can I edit this code?
+## 주요 기능
+- 과제 등록 및 마감일 설정
+- 마감일까지 남은 기간(D-day) 자동 계산
+- 과제 완료 / 미완료 상태 관리
 
-There are several ways of editing your application.
+## 사용 기술
+- Frontend: HTML, CSS, JavaScript  
+- Backend: Python Flask  
+- Database: SQLite  
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 실행 방법
+```bash
+python app.py
